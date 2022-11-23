@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: rgb(53, 66, 83);
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  border-radius: 100% 0 0 0;
+  transform: rotate(45deg);
+  right: 50%;
+  bottom: 25%;
+}
+
+.first {
+  width: 200px;
+  height: 200px;
+  border: 50px solid transparent;
+  border-top: 50px solid transparent;
+  transform: rotate(-45deg);
+  border-radius: 50%;
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  animation: first 1s ease infinite;
+}
+
+.second {
+  width: 400px;
+  height: 400px;
+  border: 50px solid transparent;
+  border-top: 50px solid transparent;
+  transform: rotate(-45deg);
+  border-radius: 50%;
+  position: absolute;
+  top: -200px;
+  left: -200px;
+  animation: second 1s ease infinite;
+}
+.third {
+  width: 600px;
+  height: 600px;
+  border: 50px solid transparent;
+  border-top: 50px solid transparent;
+  transform: rotate(-45deg);
+  border-radius: 50%;
+  position: absolute;
+  top: -300px;
+  left: -300px;
+  animation: third 1s ease infinite;
+}

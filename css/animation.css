@@ -1,0 +1,41 @@
+@keyframes first {
+  20% {
+    border-top-color: transparent;
+  }
+
+  40% {
+    border-top-color: #f5f5f5;
+  }
+
+  70% {
+    border-top-color: #f5f5f5;
+  }
+}
+
+@keyframes second {
+  40% {
+    border-top-color: transparent;
+  }
+
+  60% {
+    border-top-color: #f5f5f5;
+  }
+
+  85% {
+    border-top-color: #f5f5f5;
+  }
+}
+
+@keyframes third {
+  60% {
+    border-top-color: transparent;
+  }
+
+  80% {
+    border-top-color: #f5f5f5;
+  }
+
+  100% {
+    border-top-color: #f5f5f5;
+  }
+}
